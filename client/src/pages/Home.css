@@ -1,0 +1,81 @@
+/* Style for the jumbotron */
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+    color: antiquewhite; /* Antique white text */
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style for the header inside the jumbotron */
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white; /* Brighter white for emphasis */
+    margin-bottom: 1rem;
+}
+
+/* Style for the lead paragraph */
+.jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #f0e6d6; /* Slightly lighter antique white */
+    margin-bottom: 1.5rem;
+}
+
+/* Style for the horizontal rule */
+.jumbotron hr {
+    border-top: 2px solid white;
+    margin: 1.5rem 0;
+}
+
+/* Styling the final paragraph inside the jumbotron */
+.jumbotron p {
+    font-size: 1rem;
+    color: #ccc; /* Lighter grey for contrast */
+}
+
+/* Button style inside the jumbotron */
+.jumbotron a.btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+.jumbotron a.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: white;
+}
+
+/* General text styling */
+label, .col-sm-2 {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Input field styling */
+input.form-control-plaintext {
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+input.form-control-plaintext:hover {
+    background-color: white; 
+}
+
+/* Header style */
+.header {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}

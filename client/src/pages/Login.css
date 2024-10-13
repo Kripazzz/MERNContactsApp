@@ -1,0 +1,28 @@
+.label{
+    color:antiquewhite;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.col-sm-2{
+    color:antiquewhite;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+input.form-control-plaintext {
+    color: black;  /* Bright white text inside input */
+    background-color:rgba(255, 255, 255, 0.622);  /* Dark background for contrast */
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Add hover effect */
+input.form-control-plaintext:hover {
+    background-color:white;  /* Slightly lighter background on hover */
+}
+
+.header{
+  color: white;
+}
